@@ -1,0 +1,7 @@
+main let
+    var x: float := 0.0;
+in
+
+begin
+    x := 1 */* 2 test + */3;
+end

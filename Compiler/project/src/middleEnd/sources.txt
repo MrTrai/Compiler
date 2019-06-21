@@ -1,0 +1,15 @@
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\IRException.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\IRFunction.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\IRInstruction.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\IRPrinter.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\IRProgram.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\IRReader.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\datatype\IRArrayType.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\datatype\IRFloatType.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\datatype\IRIntType.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\datatype\IRType.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\operand\IRConstantOperand.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\operand\IRFunctionOperand.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\operand\IRLabelOperand.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\operand\IROperand.java
+C:\Users\Kai\Desktop\irOptimizer\irOptimizer\src\ir\operand\IRVariableOperand.java

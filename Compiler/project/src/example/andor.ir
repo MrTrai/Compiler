@@ -1,0 +1,9 @@
+#start_function
+void main():
+int-list: mid, i, j, ti
+float-list: 
+assign, i, 1
+assign, j, 0
+and, mid, i, j
+or, ti, i, j
+#end_function

@@ -1,0 +1,14 @@
+#start_function
+void main():
+int-list: A[4], t, r, i
+float-list: 
+assign, i, 0
+assign, five, 5
+loop1:
+array_store, i, A, i
+array_load, t, A, i
+call, puti, t
+callr, r, getc
+add, i, i, 1
+brgeq, loop1, i, five
+#end_function

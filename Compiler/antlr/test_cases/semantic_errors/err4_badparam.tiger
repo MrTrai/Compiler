@@ -1,0 +1,9 @@
+main let
+    var x : int := 0;
+    function testFunction( a : int, b : int ) : int begin
+   	    return ( a + b );
+   	end
+in begin
+    x := 4 + 3;
+    x := testFunction(x);
+end

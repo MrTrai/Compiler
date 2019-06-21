@@ -1,0 +1,27 @@
+#start_function
+void sum(int[5] a):
+int-list:
+float-list:
+    assign, total, 0
+    assign, i, 0
+    assign, t, 0
+    loop2:
+        array_load, t, a, i
+        call, puti, t
+        add, total, total, t
+        add, i, i, 1
+        brgeq, loop2, i, 5
+    call, puti, total
+#end_function
+
+#start_function
+void main():
+int-list: A[5]
+float-list:
+    assign, i, 0
+    loop1:
+        array_store, i, A, i
+        add, i, i, 1
+        brgeq, loop1, i, 5
+    call, sum, A
+#end_function

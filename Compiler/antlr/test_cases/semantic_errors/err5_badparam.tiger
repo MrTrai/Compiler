@@ -1,0 +1,12 @@
+main let
+    var x : int := 0;
+    function testFunction(a: array[10] of int, b: int): int begin
+   	    return a[b];
+   	end
+in begin
+    let
+        var A: array[20] of int := 0;
+    in
+        x := testFunction(A, x);
+    end
+end

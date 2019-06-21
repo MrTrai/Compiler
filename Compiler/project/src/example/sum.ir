@@ -1,0 +1,13 @@
+#start_function
+void sum(int a,  int b):
+int-list: c
+float-list: 
+add, c, a, b
+call, puti, c
+#end_function
+#start_function
+void main():
+int-list: 
+float-list: 
+call, sum, 1, 2
+#end_function

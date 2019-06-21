@@ -1,0 +1,9 @@
+main let
+   var a : int := 0;
+   var b : int := 7;
+   var i : int := 0;
+in begin
+   if (a = b) then
+       break;
+   endif;
+end

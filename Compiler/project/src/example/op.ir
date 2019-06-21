@@ -1,0 +1,48 @@
+#start_function
+void main():
+int-list: a, b
+float-list: 
+assign, a, 2
+assign, b, 2
+add, a, a, 2
+call, puti, a
+add, a, 2, 2
+call, puti, a
+add, a, a, a
+call, puti, a
+add, a, 7, 7
+call, puti, a
+call, putc, '|'
+call, putc, '|'
+call, putc, '|'
+sub, z, b, 1
+call, puti, z
+sub, z, 1, b
+call, puti, z
+sub, z, b, b
+call, puti, z
+sub, z, 15, 6
+call, puti, z
+call, putc, '|'
+call, putc, '|'
+call, putc, '|'
+mult, z, b, 2
+call, puti, z
+mult, z, 3, b
+call, puti, z
+mult, z, b, b
+call, puti, z
+mult, z, 5, 5
+call, puti, z
+call, putc, '|'
+call, putc, '|'
+call, putc, '|'
+div, z, b, 2
+call, puti, z
+div, z, 6, b
+call, puti, z
+div, z, b, b
+call, puti, z
+div, z, 30, 10
+call, puti, z
+#end_function

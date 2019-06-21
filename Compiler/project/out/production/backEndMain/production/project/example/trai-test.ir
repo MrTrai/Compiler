@@ -1,0 +1,122 @@
+#start_function
+int fib(int n):
+int-list: t1, t2, x, r
+float-list:
+    assign, a, 1
+    call, puti, a
+    assign, a, b
+    call, puti, a
+    assign, X, 100, 10
+    call, puti, X
+
+    add, t, a, b
+    call, puti, t
+    add, t, 1, 2
+    call, puti, t
+    add, t, a, 2
+    call, puti, t
+    add, t, 2, a
+    call, puti, t
+
+    sub, t, a, b
+    call, puti, t
+    sub, t, 1, 2
+    call, puti, t
+    sub, t, a, 2
+    call, puti, t
+    sub, t, 2, a
+    call, puti, t
+
+    mult, t, a, b
+    call, puti, t
+    mult, t, 1, 2
+    call, puti, t
+    mult, t, a, 2
+    call, puti, t
+    mult, t, 2, a
+    call, puti, t
+
+
+    div, t, a, b
+    call, puti, t
+    div, t, 1, 2
+    call, puti, t
+    div, t, a, 2
+    call, puti, t
+    div, t, 2, a
+    call, puti, t
+
+
+    and, t, a, b
+    call, puti, t
+    and, t, 1, 2
+    call, puti, t
+    and, t, a, 2
+    call, puti, t
+    and, t, 2, a
+    call, puti, t
+
+
+    or, t, a, b
+    call, puti, t
+    or, t, 1, 2
+    call, puti, t
+    or, t, a, 2
+    call, puti, t
+    or, t, 2, a
+    call, puti, t
+
+    goto, if_label0
+
+    breq, if_label0, a, b
+    breq, if_label0, a, 1
+    breq, if_label0, 1, a
+    breq, if_label0, 1, 2
+
+    brneq, if_label0, a, b
+    brneq, if_label0, a, 1
+    brneq, if_label0, 1, a
+    brneq, if_label0, 1, 2
+
+    brlt, if_label0, a, b
+    brlt, if_label0, a, 1
+    brlt, if_label0, 1, a
+    brlt, if_label0, 1, 2
+
+    brgt, if_label0, a, b
+    brgt, if_label0, a, 1
+    brgt, if_label0, 1, a
+    brgt, if_label0, 1, 2
+
+    brgeq, if_label0, a, b
+    brgeq, if_label0, a, 1
+    brgeq, if_label0, 1, a
+    brgeq, if_label0, 1, 2
+
+    brleq, if_label0, a, b
+    brleq, if_label0, a, 1
+    brleq, if_label0, 1, a
+    brleq, if_label0, 1, 2
+
+    array_store, a, Arr, 2
+    array_store, a, Arr, i
+
+    array_load, a, Arr, 2
+    call, puti, a
+    array_load, a, Arr, i
+    call, puti, a
+
+
+    goto, end
+
+if_label0:
+
+    callr, t1, fib, a
+    callr, t2, fib, b
+
+    callr, X, geti
+    call, puti, t
+
+end:
+    return, r
+#end_function

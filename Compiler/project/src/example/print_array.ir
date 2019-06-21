@@ -1,0 +1,43 @@
+#start_function
+void sum(int[] a):
+int-list: i, five, t, t1, weight
+float-list: 
+assign, five, 20
+assign, i, 0
+assign, weight, 3
+loop1:
+mult, t1, i, weight
+array_store, t1, a, i
+add, i, i, 1
+brgeq, loop1, i, five
+assign, i, 0
+loop3:
+array_load, t1, a, i
+call, puti, t1
+call, putc, '|'
+add, i, i, 1
+brgeq, loop3, i, five
+call, putc, '|'
+call, putc, '|'
+call, putc, '|'
+call, putc, '|'
+#end_function
+#start_function
+void main():
+int-list: A[4], i, t, s, five
+float-list: 
+call, sum, A
+assign, five, 20
+assign, i, 0
+loop2:
+array_load, t, A, i
+call, putc, '<'
+call, puti, t
+call, putc, '|'
+call, puti, A
+call, putc, '|'
+call, puti, i
+call, putc, '>'
+add, i, i, 1
+brgeq, loop2, i, five
+#end_function

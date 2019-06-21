@@ -1,0 +1,10 @@
+#start_function
+void init_array(int[] a,  int size,  int val):
+int-list: i, t
+float-list: 
+assign, i, 0
+loop:
+array_store, val, a, i
+add, i, i, 1
+brgeq, loop, i, size
+#end_function

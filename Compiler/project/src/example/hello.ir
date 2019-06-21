@@ -1,0 +1,12 @@
+#start_function
+void main():
+int-list:
+float-list:
+    call, putc, 'H'
+    call, putc, 'e'
+    call, putc, 'l'
+    call, putc, 'l'
+    call, putc, 'o'
+exit1:
+return:
+#end_function

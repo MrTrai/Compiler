@@ -1,0 +1,13 @@
+#start_function
+void main():
+int-list: i, z
+float-list: 
+assign, i, 1
+loop2:
+callr, z, geti
+mult, z, z, 3
+call, puti, z
+call, putc, '|'
+add, i, i, 1
+brgt, loop2, i, 0
+#end_function

@@ -1,0 +1,9 @@
+main let
+    var X : int := 4.0;
+    var Y : int := 2;
+    var A : int := 2;
+    var B : float := 0.1;
+in begin
+    Y := Y & X;
+    A := A + B;
+end

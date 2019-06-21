@@ -1,0 +1,11 @@
+main let
+    var A : array[16] of int := 10;
+    var X : int;
+in begin
+    X := readi();
+    if (X < 0) then
+        for X := 0.0 to 15.0 do
+            printc(A[X]);
+        enddo;
+    endif;
+end

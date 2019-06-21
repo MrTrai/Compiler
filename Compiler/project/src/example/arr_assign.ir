@@ -1,0 +1,35 @@
+#start_function
+void init_arr(int[] a,   int size,   int val):
+int-list: i, t
+float-list: 
+assign, i, 0
+loop:
+array_store, val, a, i
+add, i, i, 1
+brlt, loop, i, size
+#end_function
+#start_function
+int dummy(int i):
+int-list: 
+float-list: 
+mult, i, i, 2
+return, i
+#end_function
+#start_function
+void main():
+int-list: A[20], B[20], t, i
+float-list: 
+assign, A, 20, 19
+assign, i, 0
+loop2:
+array_load, t, A, i
+call, puti, t
+call, putc, '|'
+add, i, i, 1
+brlt, loop2, i, 20
+call, putc, '|'
+call, putc, '|'
+call, putc, '|'
+callr, t, dummy, 2
+call, puti, t
+#end_function

@@ -1,0 +1,32 @@
+#start_function
+void main():
+int-list: a, b
+float-list: 
+assign, a, 3
+assign, b, 3
+brleq, beta, a, b
+alpha:
+call, puti, 1
+goto, br2
+beta:
+call, puti, 2
+br2:
+assign, a, 2
+assign, b, 3
+brleq, beta2, a, b
+alpha2:
+call, puti, 1
+goto, br3
+beta2:
+call, puti, 2
+br3:
+assign, a, 3
+assign, b, 2
+brleq, beta3, a, b
+alpha3:
+call, puti, 1
+goto, end
+beta3:
+call, puti, 2
+end:
+#end_function

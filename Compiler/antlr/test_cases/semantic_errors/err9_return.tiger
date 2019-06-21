@@ -1,0 +1,17 @@
+main let
+    var X : int;
+    function plusTen (X : int) : int begin
+        let
+            var Z : float;
+            var Y : int;
+        in
+            Y := X + 10;
+            printi(Y);
+            return Z;
+        end
+    end
+in begin
+    X := readi();
+    X := plusTen(X);
+    printi(X);
+end

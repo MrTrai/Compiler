@@ -1,0 +1,27 @@
+#start_function
+int fact(int a):
+int-list: t, x, res
+float-list:
+    call, puti, $a0
+    brgt, case, $a0, 1
+    assign, x, $a0
+    sub, $a0, $a0, 1
+    callr, t, fact, $a0
+    mult, res, x, t
+    return, res
+case:
+    return, 1
+#end_function
+
+#start_function
+void main():
+int-list: s, t
+float-list:
+    assign, t, 0
+    callr, s, geti
+    call, putc, '|'
+    call, puti, s
+    callr, t, fact, s
+    call, putc, '|'
+    call, puti, t
+#end_function

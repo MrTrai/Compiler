@@ -1,0 +1,12 @@
+main let
+    var a: int;
+in begin
+    printi(a);
+    let
+        var a: float;
+        var b: int;
+    in
+        printi(a);
+    end
+    printi(b);
+end

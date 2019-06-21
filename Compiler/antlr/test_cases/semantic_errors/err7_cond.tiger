@@ -1,0 +1,8 @@
+main let
+   var a : float := 0;
+   var b : float := 7;
+in begin
+   if (a + b) then
+       a := b;
+   endif;
+end
